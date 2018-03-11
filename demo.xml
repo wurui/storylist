@@ -14,30 +14,41 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <storylist>
-        <i>
-            <img>
-                //a.oxm1.cc/img/fox.jpg
-            </img>
-            <type>
-                powerful mobilephone
-            </type>
-            <title>
-                good watch
-            </title>
-            <href>
-                wallet
-            </href>
-            <brief>
-                nice car
-            </brief>
-            <content>
-                laptop
-            </content>
-            <time>
-                183
-            </time>
-        </i>
-    </storylist>
+        <storylist>
+            <i>
+                <type>商业故事</type>
+                <title>比亚迪“云轨”：便捷智能的出行神器</title>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a6wozf7xTjcfo26hvR63csA3lts-556.jpg</img>
+                <href></href>
+                <brief>
+                    对过NB-lo等ICT技术将动物连接起来，助力畜牧行业整体升级，不公能提升行业效益，同时也将提高畜牧产品的品质，必将迎来更为...
+                </brief>
+                <content>
+                    laptop
+                </content>
+                <time>
+                    <y>2018</y>
+                    <M>1</M>
+                    <d>3</d>
+                </time>
+            </i>
+            <i>
+                <type>商业故事</type>
+                <title>天翼云｜懂你所想，更懂你不变的爱</title>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2a95ra7bmTja6lree6Rws6vA3trc-667.jpg</img>
+                <href></href>
+                <brief>
+                    对过NB-lo等ICT技术将动物连接起来，助力畜牧行业整体升级，不公能提升行业效益，同时也将提高畜牧产品的品质，必将迎来更为...
+                </brief>
+                <content>
+                    laptop
+                </content>
+                <time>
+                    <y>2018</y>
+                    <M>3</M>
+                    <d>11</d>
+                </time>
+            </i>
+        </storylist>
     </data>
 </root>
