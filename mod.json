@@ -1,6 +1,17 @@
 {
   "name": "storylist",
   "version": "0.0.1",
-  "apiDependencies": ["storylist"]
+  "apiDependencies": [
+  	{
+  		"name":"storylist",
+  		"selector":"all"
+  	}
+  ],
+  "LINK":[
+  	{
+  		"name":"storydetail",
+  		"title":"查看详情"
+  	}
+  ]
 }
 

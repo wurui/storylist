@@ -50,5 +50,11 @@
                 </time>
             </i>
         </storylist>
+        
     </data>
+    <LINK>
+        <test mod="wurui/storylist2">#jaaa2</test>
+        <test mod="wurui/storylist">#hahah</test>
+
+    </LINK>
 </root>
