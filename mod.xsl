@@ -23,7 +23,6 @@
 	            				<a href="{LINK/storydetail}"><xsl:value-of select="brief"/></a>
 	            			</p>
             			</div>
-            			
             		</li>
             	</xsl:for-each>
             </ul>

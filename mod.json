@@ -4,13 +4,13 @@
   "apiDependencies": [
   	{
   		"name":"storylist",
-  		"selector":"all"
-  	}
-  ],
-  "LINK":[
-  	{
-  		"name":"storydetail",
-  		"title":"查看详情"
+  		"selector":"all",
+  		"LINK":[
+		  	{
+		  		"name":"storydetail",
+		  		"title":"查看详情"
+		  	}
+		]
   	}
   ]
 }
