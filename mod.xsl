@@ -4,14 +4,14 @@
 
         <div class="J_OXMod oxmod-storylist" ox-mod="storylist">
             <ul>
-            	<xsl:for-each select="data/storylist/i">
+            	<xsl:for-each select="data/info-news/i">
             		<li>
             			<div>
-            				<a href="{LINK/storydetail}"><img class="mainpic" src="{img}"/></a>
+            				<a href="{LINK/storydetail}"><img class="mainpic" src="{media/i[type='image']/src}"/></a>
             			</div>
             			<div class="content">
             				<h4 class="type">
-	            				<xsl:value-of select="type"/>
+	            				<xsl:value-of select="sort"/>
 	            			</h4>
 	            			<p class="time">
 	            				<xsl:value-of select="time/y"/>-<xsl:value-of select="time/M"/>-<xsl:value-of select="time/d"/>
