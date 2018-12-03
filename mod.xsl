@@ -7,15 +7,25 @@
             	<xsl:for-each select="data/info-news/i">
             		<li>
             			<div>
-            				<a href="{LINK/storydetail}"><img class="mainpic" src="{media/i[type='image']/src}"/></a>
+            				<a href="{LINK/storydetail}">
+                                <img class="mainpic" src="http://a.oxm1.cc/img/blank.png" style="background-image:url({media/i[type='image'][1]/src})"/>
+                            </a>
             			</div>
             			<div class="content">
-            				<h4 class="type">
-	            				<xsl:value-of select="sort"/>
+            				<h4 class="type lr">
+                                <span><xsl:value-of select="sort"/></span>
+                                <span>
+                                    <xsl:if test="time/y"><xsl:value-of select="time/y"/>-</xsl:if>
+                                    <xsl:if test="time/M"><xsl:value-of select="time/M"/>-</xsl:if>
+                                    <xsl:if test="time/d"><xsl:value-of select="time/d"/></xsl:if>
+                                    <!--
+                                    &#160;
+                                    <xsl:if test="time/H"><xsl:value-of select="time/H"/>:</xsl:if>
+                                    <xsl:if test="time/m"><xsl:value-of select="time/m"/></xsl:if>
+                                -->
+                                </span>
 	            			</h4>
-	            			<p class="time">
-	            				<xsl:value-of select="time/y"/>-<xsl:value-of select="time/M"/>-<xsl:value-of select="time/d"/>
-	            			</p>
+	            			
 	            			<h3 class="title">
 	            				<a href="{LINK/storydetail}"><xsl:value-of select="title"/></a>
 	            			</h3>

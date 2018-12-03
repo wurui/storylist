@@ -3,6 +3,11 @@
 	.mainpic{
 		width:100%;
 		//max-height: 300px;
+		height: 0;
+		padding-bottom: 60%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
 	}	
 	li{
 		background-color: #f3f3f3;
@@ -16,25 +21,37 @@
 		padding:10px;
 	}
 	.type{
-		color:#666;
+		color:#999;
 		font-size: 12px;
 		font-weight: 400;
 		//text-align: center;
 	}
-	.time{
-		font-size: 12px;
-		margin: 5px 0;
-		color:#333;
-	}
+	
 	.title{
-		color:#111;
-		font-size: 22px;
+		color:#333;
+		font-size: 18px;
 		margin: 5px 0 15px;
 
 	}
 	.brief{
-		color: #333;
+		color: #666;
 		font-size: 14px;
+		font-weight: 400;
+	}
+	.lr{
+		font-size: 0;
+		>span{
+			width:50%;
+			font-size: 12px;
+
+			display: inline-block;
+			&:first-child{
+				text-align:left;
+			}
+			&:last-child{
+				text-align:right;
+			}
+		}
 	}
  }
 

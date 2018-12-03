@@ -14,60 +14,45 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-        <info-news ADAPTERID="25aa77b4955377050814c16dc" SELECTOR="all" LINK-storydetail="5aa77b4955377050814c16dc">
+        <info-news>
             <i>
-                <sort>商业故事</sort>
-                <title>比亚迪“云轨”：便捷智能的出行神器</title>
+                
+                <sort>今日头条</sort>
+                <title>一官员“办公室不雅照”被疯传：给钱还没完没了</title>
+                <brief>这里是一些内容简介，有几十个字就可以了吧</brief>
                 <media>
                     <i>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2a6wozf7xTjcfo26hvR63csA3lts-556.jpg</src>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2ajsrqjg3Tizjlb29pRrigwA1l1e.jpg</src>
                     </i>
                 </media>
-                <LINK>
-                    <storydetail>#detail</storydetail>
-                </LINK>
-                <brief>
-                    对过NB-lo等ICT技术将动物连接起来，助力畜牧行业整体升级，不公能提升行业效益，同时也将提高畜牧产品的品质，必将迎来更为...
-                </brief>
-                <content>
-                    laptop
-                </content>
+                
                 <time>
                     <y>2018</y>
-                    <M>1</M>
-                    <d>3</d>
+                    <M>11</M>
+                    <d>4</d>
+                    <H>12</H>
+                    <m>12</m>
                 </time>
             </i>
+      
+        
             <i>
-                <sort>商业故事</sort>
-                <title>天翼云｜懂你所想，更懂你不变的爱</title>
-                
+                <sort>广告</sort>
                 <media>
                     <i>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2a95ra7bmTja6lree6Rws6vA3trc-667.jpg</src>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2a4zslxhuTjeckfo7yRlsqfA686h-1380.png@!240</src>
                     </i>
                 </media>
                 
-                <brief>
-                    对过NB-lo等ICT技术将动物连接起来，助力畜牧行业整体升级，不公能提升行业效益，同时也将提高畜牧产品的品质，必将迎来更为...
-                </brief>
-                <content>
-                    laptop
-                </content>
-                <time>
-                    <y>2018</y>
-                    <M>3</M>
-                    <d>11</d>
-                </time>
+                
+                
+                <title>天啦！还有这么牛的微信号，盘前送牛股</title>
             </i>
+
         </info-news>
         
     </data>
-    <LINK>
-        <test mod="wurui/storylist2">#jaaa2</test>
-        <test mod="wurui/storylist">#hahah</test>
-
-    </LINK>
+ 
 </root>
