@@ -8,7 +8,7 @@
             		<li>
             			<div>
             				<a href="{LINK/storydetail}">
-                                <img class="mainpic" src="http://a.oxm1.cc/img/blank.png" style="background-image:url({media/i[type='image'][1]/src})"/>
+                                <img class="mainpic" src="https://a.oxm1.cc/img/blank.png" style="background-image:url({media/i[type='image'][1]/src})"/>
                             </a>
             			</div>
             			<div class="content">
@@ -18,11 +18,6 @@
                                     <xsl:if test="time/y"><xsl:value-of select="time/y"/>-</xsl:if>
                                     <xsl:if test="time/M"><xsl:value-of select="time/M"/>-</xsl:if>
                                     <xsl:if test="time/d"><xsl:value-of select="time/d"/></xsl:if>
-                                    <!--
-                                    &#160;
-                                    <xsl:if test="time/H"><xsl:value-of select="time/H"/>:</xsl:if>
-                                    <xsl:if test="time/m"><xsl:value-of select="time/m"/></xsl:if>
-                                -->
                                 </span>
 	            			</h4>
 	            			
