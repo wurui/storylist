@@ -1,6 +1,6 @@
 {
+  "RULE_VERSION":"20190428",
   "name": "storylist",
-  "version": "0.0.1",
   "apiDependencies": [
   	{
   		"name":"info-news",
